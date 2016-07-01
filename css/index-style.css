@@ -4,6 +4,8 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
     line-height: 1.5em;
 }
 
+
+
 a{
   text-decoration: none;
   color:inherit;
@@ -11,6 +13,7 @@ a{
 a:hover{
   text-decoration: none;
 }
+
 .navbar{
   margin-bottom: 0px;
 }
@@ -35,11 +38,8 @@ a:hover{
     border:none;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #FB8C00;
+  background-color: #fa2323;
 }
-
-
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
@@ -70,6 +70,7 @@ a:hover{
     display: block;
     padding: 10px 10px;
 }
+
 
 
 /* .main-container{
@@ -357,7 +358,7 @@ footer ul li a {
   .navbar-brand{
     height: 50px;
     width:60px;
-    background: #FB8C00 url("../img/kranevo-logo-white-7.png") no-repeat left center;
+    background: #fa2323 url("../img/kranevo-logo-white-7.png") no-repeat left center;
     background-size: 40px 40px;
     margin-left: 10px;
   }
@@ -386,7 +387,7 @@ footer ul li a {
         font-size: 1.5em;
       }
       .navbar-default {
-          background-color: #FB8C00;
+          background-color: #fa2323;
           border:none;
           z-index: 2;
       }
@@ -403,6 +404,7 @@ footer ul li a {
       .tab-img-box{
         display: none;
       }
+
 }
 
 

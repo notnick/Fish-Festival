@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="bg">
+<html lang="bg" ng-app="myApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +28,7 @@
 
     <title>Новини</title>
   </head>
-  <body>
+  <body ng-controller="myAppController">
     <noscript>
       &lt;style type="text/css"&gt;
         #noscript {display: block;}
@@ -72,16 +72,30 @@
         <div class="col-md-12">
             <div class="event-container">
               <div class="event-headline">
-                <h2>Моето ново заглавие</h2>
+                <h2>PARTY BUS ще свързва Кранево със Златни пясъци</h2>
               </div>
                 <div class="event-meta">
                     <div class="event-date">
-                      27
+                      27 / Юни
                     </div>
                     <div class="event-month">
-                      Юни
                     </div>
                 </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="news-img-box">
+                <img class="img img-responsive" src="img-assets/img-2.jpg" alt="img" />
+              </div>
+              <div class="news-text-box">
+                <p>
+                  По време на Фестивала на Цацата ще се проведат различни игри, чиято цел е да направят преживяването ви в Кранево незабравимо!
+                  Затова ви препоръчваме още сега да се запишете за някоя от тях на info@festivalnacacata.com – местата са ограничени! <br>
+                  Освен атрактивния биратлон, с който вече ви запознахме, в съботния следобед ще можете да се включите в игрите по чистене на цаца (дами, това е за вас – покажете на половинките си, че сте най-добрите!), надяждане с цаца, надпиване с бира и играта „Семейни войни“, в която ще можете да се включите с цялото си семейство.
+                  Наградите си заслужават оспорваната надпревара, а една от тях е безплатен уикенд в Кранево! <br>
+                  Очакваме ви на центъра на Кранево на 11 юни 2016 и отново напомняме – предварителното записване ще ви осигури сигурно място сред участниците в игрите. Пратете ни вашите имена и заявка, в коя игра бихте искали да се включите на
+                </p>
+              </div>
             </div>
       </div>
     </div> <!-- Main , Container-Fuild -->
@@ -108,8 +122,14 @@
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.8/angular-css.min.js"></script>
+
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="script/script.js" type="text/javascript"></script>
+    <script src="script/app.js" type="text/javascript"></script>
 
   </body>
 </html>
